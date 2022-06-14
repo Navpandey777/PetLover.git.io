@@ -1,0 +1,1199 @@
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        
+        .heading1 {
+            background-color: rgb(60, 165, 60);
+            height: 30px;
+            width: 100%;
+            display: flex;
+        }
+        
+        .support {
+            width: 50%;
+            display: flex;
+            border: #fff;
+            border-width: 5%;
+        }
+        
+        .support .help {
+            font-size: 13px;
+            font-family: sans-serif;
+            padding: 5px;
+            word-spacing: 100px;
+            color: #fff;
+            text-decoration: none;
+            margin-left: 2%;
+        }
+        
+        .support .vertical-line {
+            width: 0.3%;
+            background: #fff;
+            margin-left: 1%;
+            margin-top: 1%;
+            margin-bottom: 1.5%;
+        }
+        
+        .support .help:hover {
+            cursor: pointer;
+            color: rgb(241, 81, 53);
+        }
+        
+        .socials {
+            width: 70%;
+            text-align: right;
+            margin-right: 3%;
+        }
+        
+        .socials a {
+            width: 45px;
+            padding-top: 5px;
+            text-align: left;
+            display: inline-block;
+            font-size: 1.em;
+            color: #fff;
+        }
+        
+        .heading2 {
+            width: 98%;
+            display: flex;
+            background-color: #fff;
+        }
+        
+        .heading2 #logo {
+            width: 50%;
+            font-family: sans-serif;
+            display: flex;
+            font-size: 40px;
+            background-color: #fff;
+            height: 10%;
+            margin-left: 2%;
+        }
+        
+        .heading2 #logo a {
+            margin-top: 2%;
+            font-weight: 800;
+        }
+        
+        .heading2 #logo a:nth-child(1) {
+            color: rgb(238, 79, 5);
+        }
+        
+        .heading2 #logo a:nth-child(2) {
+            color: rgb(10, 10, 10);
+        }
+        
+        .heading2 .contact {
+            width: 50%;
+            font-family: sans-serif;
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .heading2 .contact .contact2 {
+            display: flex;
+            margin-left: 40%;
+            margin-top: 4%;
+        }
+        
+        .heading2 .contact h5 {
+            font-size: small;
+            direction: rtl;
+            font-weight: 800;
+        }
+        
+        .heading2 .contact p {
+            font-size: 12px;
+            direction: rtl;
+            margin-left: 8px;
+            margin-top: 3%;
+        }
+        
+        .contact .vertical-line {
+            width: 0.3%;
+            background: rgb(212, 210, 210);
+            margin-left: 3%;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+            background-color: rgb(12, 12, 12);
+            margin-top: 1%;
+        }
+        
+        .nav-links {
+            list-style: none;
+            color: #fff;
+            width: 100%;
+        }
+        
+        .nav-links li {
+            display: inline-block;
+            padding: 0px 10px;
+            margin-left: 30px;
+            text-align: center;
+        }
+        
+        .nav-links li a {
+            transition: all 0.3s ease 0s;
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 18px;
+            text-decoration: none;
+            height: 200px;
+        }
+        
+        .nav-links li .active {
+            color: rgb(201, 65, 11);
+        }
+        
+        .nav-links li a:hover {
+            color: rgb(201, 65, 11);
+        }
+        
+        .sub-menu1 {
+            display: none;
+        }
+        
+        ul li:hover .sub-menu1 {
+            display: block;
+            position: absolute;
+            margin-top: 1px;
+            margin-right: 2px;
+        }
+        
+        ul li:hover .sub-menu1 ul {
+            display: block;
+            margin: 10px;
+            margin-right: 10px;
+        }
+        
+        ul li:hover .sub-menu1 ul li {
+            width: 100%;
+            padding: 3px;
+            background: transparent;
+            text-align: left;
+            display: initial;
+        }
+        
+        ul li:hover .sub-menu1 ul li a:hover {
+            color: rgb(238, 79, 5);
+        }
+        
+        button {
+            padding: 8px 10px;
+            background-color: rgb(201, 65, 11);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3 ease 0s;
+            color: azure;
+        }
+        
+        header #button1 {
+            border-radius: 5px;
+        }
+        
+        .carousel-control-prev-icon {
+            background-color: rgb(201, 65, 11);
+        }
+        
+        .carousel-control-next-icon {
+            background-color: rgb(201, 65, 11);
+        }
+        
+        .carousel-caption h5 {
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: x-large;
+            word-spacing: 3px;
+            color: #fff;
+        }
+        
+        .carousel-caption h1 {
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: x-large;
+            word-spacing: 3px;
+            color: #fff;
+            font-size: 60px;
+        }
+        
+        .carousel-caption p {
+            font-family: sans-serif;
+            font-weight: 600;
+            word-spacing: 3px;
+            color: #fff;
+            margin-top: 3%;
+            margin-bottom: 5%;
+        }
+        
+        .carousel-caption #button2 {
+            margin-bottom: 25%;
+            border-radius: 5px;
+            padding: 7px 20px;
+        }
+        
+        .carousel-caption #button3 {
+            background-color: rgb(7, 194, 107);
+            border-radius: 5px;
+            padding: 7px 20px;
+            color: #000;
+        }
+        
+        .carousel-item img {
+            width: 100%;
+            height: 700px;
+        }
+        
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        
+        .from {
+            width: 50%;
+            background-color: rgb(229, 235, 233);
+        }
+        
+        .books-from1 {
+            width: 50%;
+            height: 400px;
+            margin-left: 30%;
+            padding: 10px;
+            border-radius: 0px;
+            background-color: rgb(216, 82, 20);
+        }
+        
+        .input-group {
+            width: 100%;
+            margin-top: 3%;
+            position: relative;
+            text-align: left;
+            margin-left: 7%;
+        }
+        
+        .input-group label {
+            width: 100%;
+            padding: 8px;
+            cursor: text;
+            position: absolute;
+            font-size: 15px;
+            font-family: sans-serif;
+            margin-top: 2%;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[id="date"],
+        input[id="time"] {
+            width: 80%;
+            padding: 8px;
+        }
+        
+        .books-from1 .form-control {
+            text-align: left;
+            font-size: 15px;
+            border: white;
+            border-radius: 6px;
+            width: 80%;
+            padding: 8px;
+            font-family: sans-serif;
+            margin-top: 6%;
+            margin-left: 7%;
+        }
+        
+        #button4 {
+            width: 82%;
+            margin-top: 5%;
+            border-radius: 5px;
+            padding: 10px 0px;
+            background-color: #000;
+            margin-left: 6%;
+        }
+        
+        .book {
+            width: 50%;
+            background-color: rgb(229, 235, 233);
+        }
+        
+        .book h3 {
+            color: rgb(11, 185, 84);
+            margin-top: 6%;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+        
+        .book a {
+            font-size: 40px;
+            font-family: sans-serif;
+            font-weight: 800;
+            word-spacing: 2px;
+        }
+        
+        .book #bookpet a:nth-child(1) {
+            color: #000;
+        }
+        
+        .book #bookpet a:nth-child(2) {
+            color: rgb(201, 65, 11);
+        }
+        
+        .book p {
+            font-family: sans-serif;
+        }
+        
+        .bookpet2 {
+            width: 100%;
+        }
+        
+        #pet-tranning {
+            display: flex;
+            margin-right: 2%;
+            width: 98%;
+        }
+        
+        .bookpet2 #box0 {
+            width: 48%;
+            display: inline-block;
+        }
+        
+        .bookpet2 #box1 {
+            width: 48%;
+            display: inline-block;
+        }
+        
+        .bookpet2 #box2 {
+            width: 48%;
+            display: inline-block;
+        }
+        
+        .bookpet2 #box3 {
+            width: 48%;
+            display: inline-block;
+        }
+        
+        .bookpet2 img {
+            height: 25px;
+        }
+        
+        .bookpet2 h4 {
+            margin-left: 3%;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        
+        .bookpet2 p {
+            font-size: 15px;
+            font-family: sans-serif;
+            margin: 5%;
+        }
+        
+        .container1 {
+            width: 100%;
+            display: flex;
+            margin-top: 5%;
+        }
+        
+        .about1 {
+            width: 50%;
+        }
+        
+        .about11 {
+            width: 50%;
+            text-align: left;
+            margin-left: 50%;
+        }
+        
+        .about11 #about12 h4 {
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 800;
+            color: rgb(60, 165, 60);
+        }
+        
+        .about11 #about12 a {
+            font-size: xx-large;
+            font-weight: 800;
+        }
+        
+        #about14 a:nth-child(1) {
+            color: rgb(201, 65, 11);
+        }
+        
+        #about14 a:nth-child(2) {
+            color: #000;
+        }
+        
+        #about14 a:nth-child(3) {
+            color: rgb(60, 165, 60);
+        }
+        
+        .about11 #about12 p {
+            font-family: sans-serif;
+            font-weight: 600;
+            color: rgb(70, 68, 68);
+            margin-top: 2%;
+        }
+        
+        .about13 img {
+            height: 20px;
+        }
+        
+        .about13 h6 {
+            margin-left: 3%;
+        }
+        
+        .about17 {
+            display: flex;
+        }
+        
+        .about15 {
+            display: flex;
+        }
+        
+        .about16 {
+            display: flex;
+        }
+        
+        .about2 {
+            width: 50%;
+            display: inline-block;
+            margin-left: 5%;
+        }
+        
+        .about2 #about21 {
+            width: 50%;
+        }
+        
+        .about2 #about22 {
+            width: 50%;
+            display: flex;
+        }
+        
+        .about2 img {
+            width: 100%;
+        }
+        
+        .about2 #about22 img {
+            width: 50%;
+        }
+        
+        #button5 {
+            border-radius: 5px;
+        }
+        
+        .container2 {
+            width: 100%;
+            background-color: rgb(229, 235, 233);
+            text-align: center;
+            margin-top: 4%;
+        }
+        
+        .container2 h4 {
+            font-family: sans-serif;
+            font-weight: 800;
+            color: rgb(60, 165, 60);
+            font-size: 20px;
+        }
+        
+        .container2 .premium a {
+            font-size: 40px;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+        
+        .container2 .premium a:nth-child(1) {
+            color: rgb(201, 65, 11);
+        }
+        
+        .service1 {
+            width: 100%;
+        }
+        
+        .service1 #service2 {
+            width: 25%;
+            display: inline-block;
+            background-color: #fff;
+            margin: 1%;
+        }
+        
+        #service2 img {
+            margin-top: 4%;
+            height: 45px;
+        }
+        
+        #service2 h4 {
+            color: #000;
+            margin-top: 4%;
+            font-family: sans-serif;
+        }
+        
+        #service2 p {
+            color: rgb(139, 137, 137);
+            margin-top: 4%;
+            font-family: sans-serif;
+        }
+        
+        #button6 {
+            background-color: #fff;
+            color: rgb(201, 65, 11);
+        }
+        
+        .container3 {
+            width: 100%;
+            display: flex;
+        }
+        
+        .container3 #care {
+            width: 50%;
+        }
+        
+        .container3 #care img {
+            float: right;
+            width: 50%;
+            margin-right: 7%;
+        }
+        
+        #care h3 {
+            font-family: sans-serif;
+            color: rgb(60, 165, 60);
+            font-weight: 800;
+            font-size: 20px;
+            margin-top: 4%;
+            margin-left: 6%;
+        }
+        
+        .care5 {
+            width: 80%;
+        }
+        
+        #care2 {
+            margin-left: 6%;
+        }
+        
+        #care2 a {
+            font-family: sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        
+        #care2 a:nth-child(1) {
+            color: rgb(201, 65, 11);
+        }
+        
+        #care p {
+            font-family: sans-serif;
+            margin-left: 6%;
+            margin-top: 3%;
+        }
+        
+        .care3 {
+            width: 100%;
+            margin-left: 6%;
+        }
+        
+        .pre-care2 {
+            display: flex;
+        }
+        
+        .care4 #pet-care {
+            width: 50%;
+        }
+        
+        .care4 #pet-care img {
+            width: auto;
+            height: 45px;
+            float: left;
+        }
+        
+        .care4 #pet-care h4 {
+            margin-top: 2%;
+            font-weight: 600;
+            font-size: 25;
+        }
+        
+        .pre-care1 {
+            display: flex;
+            margin-top: 5%;
+        }
+        
+        .container4 {
+            width: 100%;
+            text-align: center;
+            background-color: #fff;
+        }
+        
+        .bestprice {
+            background-color: rgb(229, 235, 233);
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .premium {
+            width: 80%;
+            margin-left: 10%;
+            background-color: rgb(229, 235, 233);
+        }
+        
+        .container4 h3 {
+            font-weight: 600;
+            color: rgb(60, 165, 60);
+            font-family: sans-serif;
+            margin-top: 4%;
+        }
+        
+        #price a {
+            font-size: 45px;
+            font-weight: 700;
+            font-family: sans-serif;
+        }
+        
+        #price a:nth-child(2) {
+            color: rgb(201, 65, 11);
+        }
+        
+        .overlay {
+            width: 25%;
+            background-color: #fff;
+            display: inline-block;
+            margin-top: 5%;
+            margin-right: 1%;
+        }
+        
+        .overlay2 {
+            width: 100%;
+        }
+        
+        .container4 .overlay2 {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Design-2/img/price-1.jpg);
+            height: 200px;
+        }
+        
+        .container4 .overlay2 h4 {
+            font-size: 25px;
+            color: rgb(201, 65, 11);
+            font-weight: 700;
+        }
+        
+        .container4 .overlay2 h6 {
+            font-size: 40px;
+            color: #fff;
+            margin-top: 5%;
+        }
+        
+        .container4 .overlay2 span {
+            font-size: 20px;
+        }
+        
+        .container4 .overlay2 sup {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .container4 #overlay3 h6 {
+            margin-top: 9%;
+            font-size: 15px;
+            font-weight: 620;
+            color: rgb(83, 80, 80);
+        }
+        
+        .container4 #overlay3 h5 {
+            font-size: 15px;
+            font-weight: 620;
+            color: rgb(83, 80, 80);
+        }
+        
+        .container4 #overlay3 #button7 {
+            margin-top: 3%;
+            width: 100%;
+        }
+        
+        .overlay00 {
+            width: 25%;
+            background-color: #fff;
+            display: inline-block;
+            margin-right: 1%;
+        }
+        
+        .overlay002 {
+            width: 100%;
+        }
+        
+        .container4 .overlay002 {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Design-2/img/price-2.jpg);
+            height: 200px;
+        }
+        
+        .container4 .overlay002 h4 {
+            font-size: 25px;
+            color: rgb(60, 165, 60);
+            font-weight: 700;
+        }
+        
+        .container4 .overlay002 h6 {
+            font-size: 40px;
+            color: #fff;
+            margin-top: 5%;
+        }
+        
+        .container4 .overlay002 span {
+            font-size: 20px;
+        }
+        
+        .container4 .overlay002 sup {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .container4 #overlay003 h6 {
+            margin-top: 9%;
+            font-size: 15px;
+            font-weight: 620;
+            color: rgb(83, 80, 80);
+        }
+        
+        .container4 #overlay003 h5 {
+            font-size: 15px;
+            font-weight: 620;
+            color: rgb(83, 80, 80);
+        }
+        
+        .container4 #overlay003 #button8 {
+            margin-top: 3%;
+            width: 100%;
+            background-color: rgb(60, 165, 60);
+        }
+        
+        .overlay0 {
+            width: 25%;
+            background-color: #fff;
+            display: inline-block;
+        }
+        
+        .overlay02 {
+            width: 100%;
+        }
+        
+        .container4 .overlay02 {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Design-2/img/price-3.jpg);
+            height: 200px;
+        }
+        
+        .container4 .overlay02 h4 {
+            font-size: 25px;
+            color: rgb(201, 65, 11);
+            font-weight: 700;
+        }
+        
+        .container4 .overlay02 h6 {
+            font-size: 40px;
+            color: #fff;
+            margin-top: 5%;
+        }
+        
+        .container4 .overlay02 span {
+            font-size: 20px;
+        }
+        
+        .container4 .overlay02 sup {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .container4 #overlay03 h6 {
+            margin-top: 9%;
+            font-size: 15px;
+            font-weight: 620;
+            color: rgb(83, 80, 80);
+        }
+        
+        .container4 #overlay03 h5 {
+            font-size: 15px;
+            font-weight: 620;
+            color: rgb(83, 80, 80);
+        }
+        
+        .container4 #overlay03 #button9 {
+            margin-top: 3%;
+            width: 100%;
+        }
+        
+        .container5 {
+            width: 100%;
+        }
+        
+        .container5 .member {
+            text-align: center;
+            margin-top: 5%;
+        }
+        
+        .container5 .member h5 {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(60, 165, 60);
+            font-weight: 700;
+        }
+        
+        .container5 .member a {
+            font-size: 38px;
+            font-weight: 800;
+            font-family: sans-serif;
+        }
+        
+        .container5 .member a:nth-child(2) {
+            color: rgb(201, 65, 11);
+        }
+        
+        .team-member {
+            width: 80%;
+            display: flex;
+            margin-left: 18%;
+        }
+        
+        .team {
+            width: 20%;
+            display: inline-block;
+            margin-top: 3%;
+        }
+        
+        #team1 {
+            background-color: rgb(229, 235, 233);
+            margin: 1%;
+        }
+        
+        .team #team1 img {
+            width: 100%;
+        }
+        
+        .team-member .team h6 {
+            font-size: large;
+            margin-top: 4%;
+            font-weight: 700;
+            font-family: sans-serif;
+        }
+        
+        .team-member .team p {
+            font-weight: 600;
+            color: rgb(82, 79, 79);
+            font-family: sans-serif;
+        }
+        
+        .container6 {
+            margin-top: 6%;
+            width: 100%;
+            background-color: rgb(229, 235, 233);
+            text-align: center;
+        }
+        
+        #client h1 {
+            margin-top: 5%;
+            color: rgb(229, 235, 233);
+        }
+        
+        #client h5 {
+            font-size: 30;
+            font-family: sans-serif;
+            font-weight: 700;
+            margin-top: 5%;
+            color: rgb(60, 165, 60);
+        }
+        
+        .client-1 a {
+            font-size: 45px;
+            font-weight: 800;
+            font-family: sans-serif;
+        }
+        
+        .container6 .client-1 a:nth-child(2) {
+            color: rgb(201, 65, 11);
+        }
+        
+        .container6 .owl-carousel {
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 3%;
+        }
+        
+        .container6 .owl-theme .owl-dots .owl-dot.active span {
+            background-color: rgb(201, 65, 11);
+        }
+        
+        .item {
+            width: 100%;
+            background-color: #fff;
+        }
+        
+        #item-1 {
+            display: flex;
+            width: 100%;
+        }
+        
+        #item-1 img {
+            width: fit-content;
+        }
+        
+        #item-2 {
+            margin-left: 5%;
+            margin-top: 8%;
+        }
+        
+        #item-2 .title {
+            font-weight: 800;
+            font-family: sans-serif;
+            margin-top: 2%;
+        }
+        
+        #item-2 .sub-title {
+            font-size: 600;
+            font-family: sans-serif;
+            color: rgb(152, 152, 153);
+            margin-top: 1%;
+            text-align: left;
+        }
+        
+        #item-3 p {
+            margin-top: 3%;
+            width: 80%;
+            text-align: left;
+            margin-left: 9%;
+        }
+        
+        .container7 {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .container7 h5 {
+            font-size: 20px;
+            font-weight: 800;
+            margin-top: 5%;
+            color: rgb(21, 168, 119);
+        }
+        
+        .container7 .blog-1 a {
+            font-size: 45px;
+            font-weight: 800;
+            margin-top: 1%;
+            font-family: sans-serif;
+        }
+        
+        .container7 .blog-1 a:nth-child(1) {
+            color: rgb(201, 65, 11);
+        }
+        
+        .container7 #blog-3 {
+            width: 80%;
+            display: flex;
+            margin-left: 10%;
+            margin-top: 3%;
+        }
+        
+        .container7 #blog-4 {
+            width: 30%;
+            background-color: rgb(229, 235, 233);
+            margin-left: 2%;
+            border-radius: 5px;
+        }
+        
+        .container7 #blog-4 #blog-5 {
+            width: 100%;
+        }
+        
+        .container7 #blog-4 #blog-5 img {
+            width: 100%;
+        }
+        
+        .container7 #blog-4 .blog-5 h6 {
+            margin-top: 3%;
+            font-family: sans-serif;
+            font-weight: 850;
+            text-align: center;
+        }
+        
+        .container7 .blog-5 .block-6 {
+            display: flex;
+            margin-left: 12%;
+        }
+        
+        .container7 #blog-4 .block-6 img {
+            height: 15px;
+            margin-left: 2%;
+        }
+        
+        .container7 .blog-5 .block-6 h4 {
+            font-size: 15px;
+            margin-left: 2%;
+            font-weight: 500;
+            font-family: sans-serif;
+        }
+        
+        .container7 .blog-5 p {
+            text-align: left;
+            margin-left: 10%;
+        }
+        
+        .container7 .blog-5 #button10 {
+            margin-right: 50%;
+            color: rgb(201, 65, 11);
+            background-color: rgb(229, 235, 233);
+        }
+        
+        .footer {
+            background: rgb(31, 31, 31);
+            color: #fff;
+            height: 582px;
+            position: relative;
+            margin-top: 125px;
+        }
+        
+        .footer .footer-content {
+            height: 350px;
+            display: flex;
+        }
+        
+        .footer .footer-content .footer-section {
+            flex: 1 100%;
+        }
+        
+        .footer .footer-bottom {
+            background: #000;
+            color: #fff;
+            height: 80px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            padding-top: 20px;
+            font-family: sans-serif;
+            display: flex;
+        }
+        
+        .footer .footer-bottom .bottum {
+            width: 50%;
+            margin-left: 3%;
+            font-size: medium;
+        }
+        
+        .footer .footer-bottom .bottom-1 {
+            width: 50%;
+            text-align: end;
+            margin-left: 15%;
+        }
+        
+        .footer .footer-bottom .bottom-1 span {
+            font-size: 13px;
+            font-family: sans-serif;
+            padding: 10px;
+            word-spacing: 200px;
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1%;
+        }
+        
+        .footer .footer-content .footer-section .footer-1 {
+            margin-top: 30%;
+            margin-left: 7%;
+        }
+        
+        .footer .footer-content .footer-section sub {
+            margin-top: 30px;
+            font-family: sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        
+        .footer .footer-content .footer-section sub:nth-child(1) {
+            color: rgb(201, 65, 11);
+        }
+        
+        .footer .footer-content .footer-section p {
+            margin-top: 40px;
+            margin-left: 7%;
+            font-size: justify;
+            font-family: sans-serif;
+        }
+        
+        .footer .footer-content .socials a {
+            border: 1px solid #fff;
+            width: 40px;
+            height: 35px;
+            text-align: center;
+            display: inline-block;
+            font-size: 1.1em;
+            border-radius: 20px;
+            color: #fff;
+            margin-top: 20px;
+            margin-right: 5%;
+        }
+        
+        .footer .footer-content .footer-section h2 {
+            margin-top: 30%;
+            font-family: sans-serif;
+            font-size: 28px;
+            text-align: center;
+            color: rgb(201, 65, 11);
+            margin-right: 27%;
+            font-weight: 750;
+        }
+        
+        .footer .footer-content .contact span {
+            display: block;
+            font-size: 1.1em;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        
+        .footer .footer-content .links ul a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            margin-left: 10%;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .footer .footer-content .links ul a:hover {
+            color: white;
+            margin-left: 5px;
+            transition: all 0.3s;
+        }
+        
+        .footer .footer-content .letter .text-input {
+            background: #f1ecec;
+            color: #bebdbe;
+            margin-bottom: 3px;
+            line-height: 1.5em;
+            padding: 0.5rem 1.0rem;
+            margin-left: 8%;
+            margin-top: 20px;
+            border-radius: 10px;
+            width: 56%;
+            margin-left: 18%;
+        }
+        
+        .footer .footer-content .button10 {
+            padding: 6px;
+            cursor: pointer;
+            margin-top: -10px;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .button10 button {
+            background-color: rgb(201, 65, 11);
+            color: white;
+            font-size: 18px;
+            border-color: rgb(201, 65, 11);
+            border-radius: 8px;
+            padding: 8px;
+            outline: none;
+            width: 63%;
+            cursor: pointer;
+            margin-left: 14%;
+        }
